@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://crover:bdCo-v95.@cluster0.nawut.mongodb.net/db_credit_card?retryWrites=true&w=majority
+  application:
+    name: credit_card-service
+    #configuración del config-server
+  #cloud:
+    #config:
+      #uri: https://bs-config-server.azurewebsites.net
+      #uri: https://config-server-app.azurewebsites.net
